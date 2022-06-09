@@ -10,6 +10,7 @@ module.exports = {
           secondary: "#090306",
           accent: "#111111",
           neutral: "#FFFFFF",
+          info: "#252525",
           error: "#FA5C5C",
         },
       },
