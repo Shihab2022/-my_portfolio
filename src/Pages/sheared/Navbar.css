@@ -1,0 +1,15 @@
+.home-btn:hover{
+/* transform: translate(-20px,0); */
+animation-name: bg-change;
+animation-duration: 3s;
+}
+@keyframes bg-change{
+    0%{
+        /* background-color: aqua; */
+        width:80px;
+    };
+    100%{
+        background-color: red;
+        
+    }
+}
