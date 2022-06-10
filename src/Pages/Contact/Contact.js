@@ -1,4 +1,5 @@
-import React from "react";
+import React , { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import {
   FaMap,
   FaEnvelopeOpen,
@@ -10,6 +11,18 @@ import {
 } from "react-icons/fa";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_x1dc8yo', 'template_yl4pvq3', form.current, 'PmGyTRdpfhG_xWbVv')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <>
       <div className="bg-accent min-h-screen md:pb-0 pb-32 w-screen">
@@ -57,16 +70,18 @@ const Contact = () => {
               </div>
             </div>
             <div className="md:w-[70%] w-full px-5 text-black">
-              <form action="">
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="md:flex justify-around ">
                   <input
                     type="text"
                     placeholder="Enter your name"
+                    name="from_name"
                     className="px-5 ml-3 py-4 rounded-full w-full md:w-[50%]"
                   />
                   <input
                     type="email"
                     placeholder="Enter your email"
+                    name="user_email" 
                     className="px-5 ml-2 py-4 rounded-full w-full md:mt-0 mt-4 md:w-[50%]"
                   />
                 </div>
@@ -77,11 +92,13 @@ const Contact = () => {
                 />
                 <textarea
                   placeholder="Enter your message"
+                  name="message"
                   className="px-5 my-5 ml-4 py-5 h-48 rounded-lg w-full"
                 ></textarea>
                 <input
                   type="submit"
                   value="send message"
+
                   className=" ml-3 rounded-full text-neutral py-3 uppercase px-8 border-2 border-primary text-xl"
                 />
               </form>

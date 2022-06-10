@@ -20,7 +20,7 @@ import netlify from "../../assets/icon/netlify.png";
 const About = () => {
   return (
     <>
-      <div className=" bg-accent   w-screen flex items-center pb-20 flex-col">
+      <div className=" bg-accent   w-screen flex items-center b-20 flex-col">
         <h1 className="md:text-7xl text-5xl text-center font-bold uppercase py-10">
           about me
         </h1>
