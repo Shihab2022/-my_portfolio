@@ -1,0 +1,23 @@
+.img-bg{
+    position: relative;
+ 
+}
+.overlay{
+    visibility: hidden;
+    transition: 5s;
+    /* transition-delay: 2s; */
+    transition-duration: 2s;
+}
+.img-bg:hover .overlay{
+    position: absolute;
+    visibility: visible;
+    background-color: #FFB400;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.img-bg:hover .content{
+    display: inline;
+}

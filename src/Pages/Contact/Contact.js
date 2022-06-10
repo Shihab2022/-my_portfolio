@@ -1,5 +1,8 @@
 import React , { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 import {
   FaMap,
   FaEnvelopeOpen,
@@ -19,8 +22,13 @@ const Contact = () => {
     emailjs.sendForm('service_x1dc8yo', 'template_yl4pvq3', form.current, 'PmGyTRdpfhG_xWbVv')
       .then((result) => {
           console.log(result.text);
+          if(result){
+            toast.success("Thanks for getting your information .")
+          }
       }, (error) => {
-          console.log(error.text);
+          if(error){
+            toast.error("Sorry ! something wrong please try again")
+          };
       });
   };
   return (
@@ -76,12 +84,14 @@ const Contact = () => {
                     type="text"
                     placeholder="Enter your name"
                     name="from_name"
+                    required
                     className="px-5 ml-3 py-4 rounded-full w-full md:w-[50%]"
                   />
                   <input
                     type="email"
                     placeholder="Enter your email"
                     name="user_email" 
+                    required
                     className="px-5 ml-2 py-4 rounded-full w-full md:mt-0 mt-4 md:w-[50%]"
                   />
                 </div>
@@ -93,6 +103,7 @@ const Contact = () => {
                 <textarea
                   placeholder="Enter your message"
                   name="message"
+                  required
                   className="px-5 my-5 ml-4 py-5 h-48 rounded-lg w-full"
                 ></textarea>
                 <input
@@ -106,6 +117,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 };

@@ -1,7 +1,9 @@
 import React from "react";
 import my_img from '../../assets/img/my_img.jpg'
+import Projects from "../Projects/Projects";
 const Home = () => {
   return (
+    <>
     <div className="bg-accent  h-screen w-screen">
       <div>
         <div class="hero min-h-screen ">
@@ -29,6 +31,8 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Projects></Projects>
+    </>
   );
 };
 
