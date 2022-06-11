@@ -1,5 +1,6 @@
 import React from "react";
 import my_img from '../../assets/img/my_img.jpg'
+import ProjectDetails from "../Projects/ProjectDetails";
 import Projects from "../Projects/Projects";
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       </div>
     </div>
     <Projects></Projects>
+ 
     </>
   );
 };

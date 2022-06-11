@@ -5,6 +5,7 @@
       "img2": "https://i.ibb.co/cwWWCVy/Screenshot-96.png",
       "img3": "https://i.ibb.co/s2v95yR/Screenshot-94.png",
       "img4": "https://i.ibb.co/kBB12Gr/Screenshot-90.png",
+      "name":"manufacture project",
       "link": {
         "lifeSite": "https://allegro-bd8c0.web.app/",
         "client_link": "https://github.com/Shihab2022/manufacturer-website-client",
@@ -14,16 +15,17 @@
           "You can see all details in our company .","Have some protected route . This route user can not going without login .","You can order something and payment cost by card .","Have an profile and you can update your profile .","You can give review for our company ."
       ],
       "tools":[
-       " HTML", " CSS","JavaScript", "React", "Firebase","Tailwind CSS", "react-hook-form", "react-query", "stripe", "react stripe js","React firebase hooks","React router dom","React toastify","React icons", "daisyui"
+       " HTML", " CSS","JavaScript", "React", "Firebase","Tailwind CSS", "react-hook-form", "react-query", "stripe", "react stripe js","React firebase hooks","React router dom","React toastify","React icons", "daisyui",
 "sweetalert2"," AOS (for animation)"
       ]
     },
     {
-      "_id": "62a37b5e1898962845f5f410",
+      "_id": "62a37b5e1898962845f5f78921",
       "img1": "https://i.ibb.co/pnZ0XsK/Screenshot-98.png",
       "img2": "https://i.ibb.co/8rMHpvV/Screenshot-99.png",
       "img3": "https://i.ibb.co/6nLzN4W/Screenshot-100.png",
       "img4": "https://i.ibb.co/rwrBTK1/Screenshot-101.png",
+      "name":"Royal Cars ",
       "link": {
         "lifeSite": "https://royal-cars-client.web.app/",
         "client_link": "https://github.com/Shihab2022/warehouse-management-client",
@@ -33,12 +35,11 @@
           "This project have an home page . This page have some item and advantage and discount section .","Have an add item page .This page you can add new item easily .","An details / update page . This page you can show details / You can update .","Have an all inventory page . You can see all item in my shop . And you can delete item easy ly .","Login and Register authentication system ."
       ],
       "tools":[
-       " HTML", " CSS","JavaScript", "React", "Firebase","Tailwind CSS", "React firebase hooks","React router dom","React toastify","React icons", "daisyui"
-"sweetalert2"," AOS (for animation)","React Icons"
+       " HTML", " CSS","JavaScript", "React", "Firebase","Tailwind CSS", "React firebase hooks","React router dom","React toastify","React icons", "daisyui"," AOS (for animation)","React Icons"
       ]
     },
     {
-      "_id": "62a37b5e1898962845f5f410",
+      "_id": "62a37b5e1898962844876510",
       "img1": "https://i.ibb.co/kBB12Gr/Screenshot-90.png",
       "img2": "https://i.ibb.co/cwWWCVy/Screenshot-96.png",
       "img3": "https://i.ibb.co/s2v95yR/Screenshot-94.png",
@@ -52,7 +53,7 @@
           "You can see all details in our company .","Have some protected route . This route user can not going without login .","You can order something and payment cost by card .","Have an profile and you can update your profile .","You can give review for our company ."
       ],
       "tools":[
-       " HTML", " CSS","JavaScript", "React", "Firebase","Tailwind CSS", "react-hook-form", "react-query", "stripe", "react stripe js","React firebase hooks","React router dom","React toastify","React icons", "daisyui"
+       " HTML", " CSS","JavaScript", "React", "Firebase","Tailwind CSS", "react-hook-form", "react-query", "stripe", "react stripe js","React firebase hooks","React router dom","React toastify","React icons", "daisyui",
 "sweetalert2"," AOS (for animation)"
       ]
     }
