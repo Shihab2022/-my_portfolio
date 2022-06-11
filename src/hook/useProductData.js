@@ -6,7 +6,7 @@ const useProductData = () => {
         fetch('fakeData.json')
         .then(res=>res.json())
         .then(data=>setProjects(data))
-    },[])
+    },[projects])
     return [projects,setProjects]
 };
 
