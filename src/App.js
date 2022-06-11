@@ -8,13 +8,14 @@ import Home from './Pages/Home/Home';
 import ProjectDetails from './Pages/Projects/ProjectDetails';
 import NavBar from './Pages/sheared/NavBar';
 
-// export const ProductContext=createContext({})
+export const ProductContext=createContext({})
 function App() {
-  // const [projects]=useProductData()
+  const [projects]=useProductData()
+  console.log(projects)
   return (
     <div>
-      <NavBar></NavBar>
-      {/* <ProductContext.Provider value={projects}> */}
+      <NavBar/>
+      <ProductContext.Provider value={projects}>
      <Routes>
        <Route path='/' element={<Home/>}></Route>
        <Route path='/home' element={<Home/>}></Route>
@@ -22,7 +23,7 @@ function App() {
        <Route path='/contact' element={<Contact/>}></Route>
        <Route path='/projectDetails/:id' element={<ProjectDetails/>}></Route>
      </Routes>
-     {/* </ProductContext.Provider> */}
+     </ProductContext.Provider>
     </div>
   );
 }
