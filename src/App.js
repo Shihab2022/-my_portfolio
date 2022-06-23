@@ -9,9 +9,10 @@ import ProjectDetails from './Pages/Projects/ProjectDetails';
 import NavBar from './Pages/sheared/NavBar';
 
 export const ProductContext=createContext({})
+
 function App() {
-  const [projects]=useProductData()
-  console.log(projects)
+  const projects=useProductData()
+
   return (
     <div>
       <NavBar/>
@@ -21,7 +22,7 @@ function App() {
        <Route path='/home' element={<Home/>}></Route>
        <Route path='/about' element={<About/>}></Route>
        <Route path='/contact' element={<Contact/>}></Route>
-       <Route path='/projectDetails/:id' element={<ProjectDetails/>}></Route>
+       <Route path='/home/:id' element={<ProjectDetails/>}></Route>
      </Routes>
      </ProductContext.Provider>
     </div>
