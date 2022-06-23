@@ -11,7 +11,7 @@ const NavBar = () => {
           <NavLink to='/'  ><FaHome  className=' home-btn p-3 ml-3 md:ml-0 bg-primary hover:duration-700 hover:bg-info rounded-full shadow-md' /></NavLink>
           <NavLink to='/about' ><FaUser className='p-3 md:my-5 md:mx-0 mx-5 bg-primary hover:duration-700 hover:bg-info rounded-full shadow-md'/></NavLink>
           <NavLink to='/contact' ><FaPhone className='p-3 bg-primary hover:duration-700 hover:bg-info rounded-full shadow-md'/></NavLink>
-          <NavLink to='/' ><FaBlogger className='p-3 md:mx-0 mx-5 my-5 bg-primary hover:duration-700 hover:bg-info rounded-full shadow-md'/></NavLink>
+          <NavLink to='/homeAbout' ><FaBlogger className='p-3 md:mx-0 mx-5 my-5 bg-primary hover:duration-700 hover:bg-info rounded-full shadow-md'/></NavLink>
          
         </div>
         </>
