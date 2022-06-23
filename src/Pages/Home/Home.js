@@ -1,5 +1,6 @@
 import React from "react";
 import my_img from '../../assets/img/my_img.jpg'
+import Contact from "../Contact/Contact";
 import ProjectDetails from "../Projects/ProjectDetails";
 import Projects from "../Projects/Projects";
 const Home = () => {
@@ -25,7 +26,6 @@ const Home = () => {
               <a href="https://drive.google.com/file/d/1AVhEON4sZzX5oolg1_bFzqEQ80Ew5S8D/view" target='_blank'>
               <button href='www.facebook.com' class="py-2 px-10  text-xl flex justify-between items-center font-semibold border-2 border-primary rounded-full">My Resume</button>
               </a>
-              {/* <button class="btn btn-outline btn-primary">Button</button> */}
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Home = () => {
       </div>
     </div>
     <Projects></Projects>
- 
+    <Contact></Contact>
     </>
   );
 };

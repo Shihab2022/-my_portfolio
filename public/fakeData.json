@@ -40,6 +40,24 @@
     },
     {
       "_id": "4337b5e189896284487lk488",
+      "img1": "https://i.ibb.co/zFN2cJF/Screenshot-112.png",
+      "img2": "https://i.ibb.co/JB4Mn8Y/Screenshot-109.png",
+      "img3": "https://i.ibb.co/Syz76pM/Screenshot-111-1.png",
+      "img4": "https://i.ibb.co/kcgCMxS/Screenshot-111.png",
+      "name":"KUBB PHOTOGRAPHY ",
+      "link": {
+        "lifeSite": "https://kubb-photography.web.app/",
+        "client_link": "https://github.com/Shihab2022/independent-service-provider",
+        "server_link": "https://github.com/Shihab2022/independent-service-provider"
+      },
+      "features":[
+          "This project have an sign in an register fetcher .","Have an protected route . This route user can not going without login .","Describe my skill and my service .","Have an header and footer section .","An blog page .This page have some blog ."
+      ],
+      "tools":[
+       " HTML", " CSS","JavaScript", "React", "Firebase","Tailwind CSS", "React firebase hooks","React router dom","React toastify","React icons"
+      ]
+    },{
+      "_id": "4337b5e1898962844hgyg7976",
       "img1": "https://i.ibb.co/kBB12Gr/Screenshot-90.png",
       "img2": "https://i.ibb.co/cwWWCVy/Screenshot-96.png",
       "img3": "https://i.ibb.co/s2v95yR/Screenshot-94.png",

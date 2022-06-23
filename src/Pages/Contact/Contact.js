@@ -34,11 +34,11 @@ const Contact = () => {
   return (
     <>
       <div className="bg-accent min-h-screen md:pb-0 pb-32 w-screen">
-        <h1 className="md:text-7xl  text-5xl text-center font-bold uppercase py-8 md:py-10">
+        <h1 className="md:text-6xl  text-5xl text-center font-bold uppercase py-8 md:py-10">
           CONTACT me
         </h1>
         <div class="hero h-[100%] ">
-          <div class="hero-content flex-col lg:flex-row">
+          <div class="hero-content flex-col-reverse justify-center items-center lg:flex-row">
             <div className="md:px-0 md:py-0 px-[8%] py-[10%]">
               <h1 className="text-4xl uppercase mb-3 font-bold">
                 get in touch
@@ -71,10 +71,21 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex mt-10">
-                <FaFacebook className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl" />
-                <FaLinkedinIn className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl mx-5" />
-                <FaGithub className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl" />
-                <FaBasketballBall className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl ml-5" />
+              <a href='https://web.facebook.com/mdshihab.uddin.92372446'  target='_blank'>
+              <FaFacebook className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl" />
+              </a>
+              <a href='https://www.linkedin.com/in/shihab-uddin-4b6369241/'  target='_blank'>
+              <FaLinkedinIn className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl mx-5" />
+              </a>
+              <a href='https://github.com/Shihab2022'  target='_blank'>
+              <FaGithub className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl" />
+              </a>
+              <a href='https://github.com/Shihab2022'  target='_blank'>
+              <FaBasketballBall className="p-3 hover:bg-primary bg-info rounded-full text-white text-5xl ml-5" />
+              </a>
+                
+         
+               
               </div>
             </div>
             <div className="md:w-[70%] w-full px-5 text-black">

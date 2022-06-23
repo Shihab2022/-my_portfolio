@@ -12,9 +12,9 @@ const Projects = () => {
     return (
        <>
       
-        <div className='grid lg:px-32 px-3 lg:grid-cols-3 bg-accent justify-center items-center lg:pb-0 pb-32  lg:h-screen w-screen gap-5'>
-           
-         
+       <div className=' bg-accent'>
+       <h1 className='text-center text-6xl mb-10 uppercase font-bold'>projects</h1>
+       <div className='grid lg:px-32 px-3 lg:grid-cols-3 justify-center items-center lg:pb-0 pb-32  lg:h-screen w-screen gap-5'>   
         {
         projects?.map(project=><>
           <div className='img-bg '>
@@ -35,6 +35,7 @@ const Projects = () => {
        }
           
          </div>
+       </div>
        </>
     );
 };
