@@ -10,18 +10,20 @@ import ProjectDetails from './Pages/Projects/ProjectDetails';
 import NavBar from './Pages/sheared/NavBar';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { useState } from 'react';
 
 export const ProductContext=createContext({})
 
 function App() {
+  const [theme,setTheme]=useState(true)
   const projects=useProductData()
   AOS.init({
     offset: 400, 
     duration: 800, 
   });
   return (
-    <div >
-      <NavBar/>
+    <div data-theme={theme ?"dark" : "light"}>
+      <NavBar theme={theme} setTheme={setTheme}></NavBar>
       <ProductContext.Provider value={projects}>
      <Routes>
        <Route path='/' element={<Home/>}></Route>

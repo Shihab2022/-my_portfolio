@@ -16,7 +16,7 @@ const Home = () => {
          data-aos="fade-down"
          data-aos-duration="2500"
               src={my_img}
-              class="max-w-sm md:rounded-lg md:h-[450px] md:w-[400px] rounded-full w-[250px] h-[250px] md:border-0 border-8 border-info shadow-info shadow-2xl" alt=''
+              class="max-w-sm md:rounded-lg md:h-[450px] md:w-[400px] rounded-full w-[250px] h-[250px] md:border-4 border-8 border-primary " alt=''
             />
 
          </div>

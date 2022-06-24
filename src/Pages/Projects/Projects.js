@@ -13,9 +13,9 @@ const Projects = () => {
       
        <div  
       className=' bg-accent'>
-       <h1 className='text-center text-6xl mb-10 uppercase font-bold'>
+       <h1 className='text-center text-neutral text-4xl md:text-6xl mb-10 uppercase font-bold'>
        <ReactTypingEffect
-        text={["projects","projects"]}
+        text={["projects"]}
       />
         </h1>
        <div className='grid lg:px-32 px-3 lg:grid-cols-3 justify-center items-center lg:pb-0 pb-32  lg:h-screen w-screen gap-5'>   

@@ -22,7 +22,7 @@ const About = () => {
   return (
     <>
       <div className=" bg-accent   w-screen flex items-center b-20 flex-col">
-        <h1 data-aos="fade-right" className="md:text-7xl text-5xl text-center font-bold uppercase py-10">
+        <h1 data-aos="fade-right" className="md:text-6xl text-5xl text-center font-bold uppercase py-10">
         <ReactTypingEffect
         text={["My Skill","about me"]}
       />
@@ -30,7 +30,7 @@ const About = () => {
 
         <div  className="md:w-[70%] px-3 mb-5">
           <div data-aos="fade-left" className="flex flex-col items-center">
-            <p className="md:text-4xl text-3xl font-bold border-b-4 my-3 border-primary">
+            <p className="md:text-4xl text-3xl text-neutral font-bold border-b-4 my-3 border-primary">
               PERSONAL INFO
             </p>
             <h1 className="text-3xl font-bold mt-3 mb-2 text-primary uppercase">
@@ -73,8 +73,8 @@ const About = () => {
                 Expertise
               </p>
 
-              <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-                <div data-aos="fade-down-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+              <div className="grid lg:grid-cols-4 text-secondary  md:grid-cols-2 grid-cols-1 gap-5">
+                <div data-aos="fade-down-right" className="py-7  w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={html} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">html</h1>
                 </div>

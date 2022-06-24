@@ -35,7 +35,7 @@ const HomeAbout = () => {
           {/* right side */}
           <div data-aos="fade-left" className="lg:px-10 px-4 py-5">
             <div>
-              <h1 className="uppercase text-3xl font-bold">  <ReactTypingEffect
+              <h1 className="uppercase text-neutral text-3xl font-bold">  <ReactTypingEffect
         text={["My Skill","about me"]}
       /></h1>
               <p className="my-1">

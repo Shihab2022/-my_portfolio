@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <>
       <div  className="bg-accent min-h-screen md:pb-0 pb-32 w-screen">
-        <h1 className="md:text-6xl  text-5xl text-center font-bold uppercase py-8 md:py-10">
+        <h1 className="md:text-6xl text-neutral  text-5xl text-center font-bold uppercase py-8 md:py-10">
         <ReactTypingEffect
         text={["CONTACT me","CONTACT me"]}
       /></h1>
