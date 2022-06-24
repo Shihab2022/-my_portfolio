@@ -11,7 +11,8 @@ const Projects = () => {
     return (
        <>
       
-       <div className=' bg-accent'>
+       <div  
+      className=' bg-accent'>
        <h1 className='text-center text-6xl mb-10 uppercase font-bold'>
        <ReactTypingEffect
         text={["projects","projects"]}
@@ -19,9 +20,11 @@ const Projects = () => {
         </h1>
        <div className='grid lg:px-32 px-3 lg:grid-cols-3 justify-center items-center lg:pb-0 pb-32  lg:h-screen w-screen gap-5'>   
         {
-        projects?.map(project=><>
-          <div className='img-bg '>
-           <img src={project?.img1} className='w-[100%] rounded-lg h-[300px]' alt="" />
+        projects?.map((project,index)=><>
+          <div className='img-bg ' key={index} >
+           <img src={project?.img1} data-aos={index%2===0 ?`fade-down` :`zoom-in-up`}
+     data-aos-easing="ease-out-cubic"
+  className='w-[100%] rounded-lg h-[300px]' alt="" />
            <div className='text-3xl  flex rounded-lg items-center justify-center overlay'>
                <div className='content  hidden'>
               <div className=' justify-center items-center flex flex-col'>

@@ -22,14 +22,14 @@ const About = () => {
   return (
     <>
       <div className=" bg-accent   w-screen flex items-center b-20 flex-col">
-        <h1 className="md:text-7xl text-5xl text-center font-bold uppercase py-10">
+        <h1 data-aos="fade-right" className="md:text-7xl text-5xl text-center font-bold uppercase py-10">
         <ReactTypingEffect
         text={["My Skill","about me"]}
       />
         </h1>
 
-        <div className="md:w-[70%] px-3 mb-5">
-          <div className="flex flex-col items-center">
+        <div  className="md:w-[70%] px-3 mb-5">
+          <div data-aos="fade-left" className="flex flex-col items-center">
             <p className="md:text-4xl text-3xl font-bold border-b-4 my-3 border-primary">
               PERSONAL INFO
             </p>
@@ -74,37 +74,37 @@ const About = () => {
               </p>
 
               <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="fade-down-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={html} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">html</h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={css} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">css</h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={bootstrap} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     bootstrap
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="fade-down-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={js} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">js</h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="fade-up-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={react} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     react
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={tailwind} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     tailwind
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={firebase} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     firebase
@@ -121,26 +121,26 @@ const About = () => {
                 Comfortable
               </p>
 
-              <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+              <div  className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+                <div data-aos="fade-down-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={mongodb} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     mongodb
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={express_js} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     express js
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={next_js} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     next js
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="fade-down-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={node_js} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     node js
@@ -156,17 +156,17 @@ const About = () => {
                 Familiar
               </p>
 
-              <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+              <div  className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+                <div data-aos="fade-down-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={react_native} className="h-3/4" alt="" />
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={typeScript} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     typeScript
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={redux} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     redux
@@ -186,32 +186,32 @@ const About = () => {
              tools
               </p>
 
-              <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+              <div  className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+                <div data-aos="fade-down-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={github} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     github
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={heroku} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                   heroku
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="flip-right" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={vs_code} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                   vs code
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div data-aos="fade-down-left" className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={netlify} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                   netlify
                   </h1>
                 </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
+                <div  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
                   <img src={firebase} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                   firebase

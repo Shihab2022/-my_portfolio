@@ -8,12 +8,18 @@ import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import ProjectDetails from './Pages/Projects/ProjectDetails';
 import NavBar from './Pages/sheared/NavBar';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
 export const ProductContext=createContext({})
 
 function App() {
   const projects=useProductData()
-
+  AOS.init({
+    offset: 400, 
+    duration: 800, 
+  });
   return (
     <div>
       <NavBar/>

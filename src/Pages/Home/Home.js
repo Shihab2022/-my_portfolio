@@ -13,12 +13,16 @@ const Home = () => {
           <div class="hero-content flex-col lg:flex-row">
          <div className="md:w-[40%]">
          <img
+         data-aos="fade-down"
+         data-aos-duration="2500"
               src={my_img}
               class="max-w-sm md:rounded-lg md:h-[450px] md:w-[400px] rounded-full w-[250px] h-[250px] md:border-0 border-8 border-info shadow-info shadow-2xl" alt=''
             />
 
          </div>
-            <div className="md:w-[60%]  flex md:justify-start justify-center md:items-start items-center flex-col">
+            <div 
+            data-aos="fade-up" data-aos-duration="2500" 
+            className="md:w-[60%]  flex md:justify-start justify-center md:items-start items-center flex-col">
               <h1 class="md:text-5xl  text-3xl text-primary font-bold uppercase">- I,m  shihab uddin</h1>
               <h1 class="md:text-5xl  text-3xl text-neutral ml-8 mt-1 font-bold uppercase"> <ReactTypingEffect
         text={["WEB developer","React developer", "full-stack developer"]}

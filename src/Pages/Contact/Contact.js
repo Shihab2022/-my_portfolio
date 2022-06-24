@@ -34,14 +34,14 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="bg-accent min-h-screen md:pb-0 pb-32 w-screen">
+      <div  className="bg-accent min-h-screen md:pb-0 pb-32 w-screen">
         <h1 className="md:text-6xl  text-5xl text-center font-bold uppercase py-8 md:py-10">
         <ReactTypingEffect
         text={["CONTACT me","CONTACT me"]}
       /></h1>
-        <div class="hero h-[100%] ">
-          <div class="hero-content flex-col-reverse justify-center items-center lg:flex-row">
-            <div className="md:px-0 md:py-0 px-[8%] py-[10%]">
+        <div   class="hero h-[100%] ">
+          <div  class="hero-content flex-col-reverse justify-center items-center lg:flex-row">
+            <div data-aos="fade-right" className="md:px-0 md:py-0 px-[8%] py-[10%]">
               <h1 className="text-4xl uppercase mb-3 font-bold">
                 get in touch
               </h1>
@@ -90,7 +90,7 @@ const Contact = () => {
                
               </div>
             </div>
-            <div className="md:w-[70%] w-full px-5 text-black">
+            <div data-aos="fade-left" className="md:w-[70%] w-full px-5 text-black">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="md:flex justify-around ">
                   <input
