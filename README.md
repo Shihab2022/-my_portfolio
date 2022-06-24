@@ -1,14 +1,37 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https://shihab-uddin-48ccf.web.app](https://shihab-uddin-48ccf.web.app).
 
-## Available Scripts
+## Technology
 
-In the project directory, you can run:
+- HTML
 
-### `npm start`
+- CSS3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- JavaScript
+
+- react
+
+- React Dom
+
+- React Icons
+
+- React Router Dom
+
+- React Toastify
+
+- React Typing Effect 
+
+- Tailwind CSS
+
+- Daisy UI
+
+- AOS (animation)
+
+
+
+### Resume
+
+ [https://drive.google.com/file/d/1AVhEON4sZzX5oolg1_bFzqEQ80Ew5S8D/view?usp=sharing](resume) to view it in your browser.
 
 
