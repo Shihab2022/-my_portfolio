@@ -17,12 +17,15 @@ import github from "../../assets/icon/github.png";
 import heroku from "../../assets/icon/heroku.png";
 import vs_code from "../../assets/icon/vs_code.png";
 import netlify from "../../assets/icon/netlify.png";
+import ReactTypingEffect from "react-typing-effect";
 const About = () => {
   return (
     <>
       <div className=" bg-accent   w-screen flex items-center b-20 flex-col">
         <h1 className="md:text-7xl text-5xl text-center font-bold uppercase py-10">
-          about me
+        <ReactTypingEffect
+        text={["My Skill","about me"]}
+      />
         </h1>
 
         <div className="md:w-[70%] px-3 mb-5">
@@ -34,8 +37,10 @@ const About = () => {
               Md : shihab uddin
             </h1>
 
-            <p className="md:text-3xl text-2xl font-bold mb-3 uppercase">
-              Junior Web Developer
+            <p className="md:text-3xl text-primary text-2xl font-bold mb-3 uppercase">
+              <ReactTypingEffect
+        text={["Junior WEB developer","Junior React developer", "Junior full-stack developer"]}
+      />
             </p>
             <p className="md:text-xl text-sm w-[85%]">
               I am a junior web developer and a web development learner also.
@@ -219,6 +224,8 @@ const About = () => {
           {/* end */}
         </div>
       </div>
+
+      
     </>
   );
 };

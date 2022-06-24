@@ -12,6 +12,7 @@ import {
   FaGithub,
   FaBasketballBall,
 } from "react-icons/fa";
+import ReactTypingEffect from "react-typing-effect";
 
 const Contact = () => {
   const form = useRef();
@@ -35,8 +36,9 @@ const Contact = () => {
     <>
       <div className="bg-accent min-h-screen md:pb-0 pb-32 w-screen">
         <h1 className="md:text-6xl  text-5xl text-center font-bold uppercase py-8 md:py-10">
-          CONTACT me
-        </h1>
+        <ReactTypingEffect
+        text={["CONTACT me","CONTACT me"]}
+      /></h1>
         <div class="hero h-[100%] ">
           <div class="hero-content flex-col-reverse justify-center items-center lg:flex-row">
             <div className="md:px-0 md:py-0 px-[8%] py-[10%]">
