@@ -1,6 +1,6 @@
 # My Portfolio
 
-[https://shihab-uddin-48ccf.web.app](https://shihab-uddin-48ccf.web.app).
+Portfolio : [https://shihab-uddin-48ccf.web.app](https://shihab-uddin-48ccf.web.app).
 
 ## Technology
 
@@ -32,6 +32,6 @@
 
 ### Resume
 
- [https://drive.google.com/file/d/1AVhEON4sZzX5oolg1_bFzqEQ80Ew5S8D/view?usp=sharing](resume) to view it in your browser.
+ [resume](https://drive.google.com/file/d/1AVhEON4sZzX5oolg1_bFzqEQ80Ew5S8D/view?usp=sharing) 
 
 

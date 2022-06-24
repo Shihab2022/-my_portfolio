@@ -9,8 +9,7 @@ import Home from './Pages/Home/Home';
 import ProjectDetails from './Pages/Projects/ProjectDetails';
 import NavBar from './Pages/sheared/NavBar';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css'; 
 
 export const ProductContext=createContext({})
 
@@ -21,7 +20,7 @@ function App() {
     duration: 800, 
   });
   return (
-    <div>
+    <div >
       <NavBar/>
       <ProductContext.Provider value={projects}>
      <Routes>
