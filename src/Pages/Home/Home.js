@@ -1,7 +1,7 @@
 import React from "react";
 import my_img from '../../assets/img/my_img.jpg'
+import HomeAbout from "../About/HomeAbout";
 import Contact from "../Contact/Contact";
-import ProjectDetails from "../Projects/ProjectDetails";
 import Projects from "../Projects/Projects";
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
               </p>
               <div>
               <a href="https://drive.google.com/file/d/1AVhEON4sZzX5oolg1_bFzqEQ80Ew5S8D/view" target='_blank'>
-              <button href='www.facebook.com' class="py-2 px-10  text-xl flex justify-between items-center font-semibold border-2 border-primary rounded-full">My Resume</button>
+              <button href='www.facebook.com' class="default-btn py-2 px-7  text-xl   border-2 border-primary rounded-full">My Resume</button>
               </a>
               </div>
             </div>
@@ -32,8 +32,9 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <Projects></Projects>
-    <Contact></Contact>
+    <HomeAbout/>
+    <Projects/>
+    <Contact/>
     </>
   );
 };

@@ -121,7 +121,7 @@ const Contact = () => {
                   type="submit"
                   value="send message"
 
-                  className=" ml-3 rounded-full text-neutral py-3 uppercase px-8 border-2 border-primary text-xl"
+                  className="default-btn py-2 px-6  text-xl   border-2 border-primary rounded-full"
                 />
               </form>
             </div>

@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import useProductData from './hook/useProductData';
 import About from './Pages/About/About';
-import HomeAbout from './Pages/About/HomeAbout';
+import Blog from './Pages/blog/Blog';
 import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import ProjectDetails from './Pages/Projects/ProjectDetails';
@@ -22,7 +22,7 @@ function App() {
        <Route path='/' element={<Home/>}></Route>
        <Route path='/home' element={<Home/>}></Route>
        <Route path='/about' element={<About/>}></Route>
-       <Route path='/homeAbout' element={<HomeAbout/>}></Route>
+       <Route path='/blog' element={<Blog/>}></Route>
        <Route path='/contact' element={<Contact/>}></Route>
        <Route path='/home/:id' element={<ProjectDetails/>}></Route>
      </Routes>

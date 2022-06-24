@@ -50,7 +50,7 @@ const About = () => {
             >
               <button
                 href="www.facebook.com"
-                class="py-2 px-20 mt-8  text-xl flex justify-between items-center font-semibold border-2 border-primary rounded-full"
+                class="default-btn py-1 px-5  text-xl   border-2 border-primary rounded-full"
               >
                 My Resume
               </button>

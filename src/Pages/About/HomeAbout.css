@@ -2,7 +2,7 @@
     /* background: linear-gradient(180deg,rgb(255 157 0 / 60%),rgb(31 30 28 / 60%) 67.59%); */
     border-width: 4px;
     border-style: solid;
-  border-radius: 50px !important;
+  border-radius: 50px 50px 0 0 !important;
   
 }
 .skill1{
@@ -47,3 +47,36 @@
       rgba(0, 0, 0, 0)
     ) 1
 }
+.left-side {
+  background: linear-gradient(rgb(46, 44, 31), rgb(27, 27, 25));
+}
+
+
+
+
+
+
+/* default */
+
+  .default-btn{
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .default-btn {
+    color: #fff;
+    border: 3px solid #FFB400;
+    background-image: -webkit-linear-gradient(30deg, #FFB400 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #FFB400 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 450ms ease-in-out;
+    transition: background 450ms ease-in-out;
+  }
+  .default-btn:hover {
+    background-position: 100%;
+    color: #FFB400;
+  }
+  
