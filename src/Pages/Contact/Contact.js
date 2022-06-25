@@ -39,8 +39,8 @@ const Contact = () => {
         <ReactTypingEffect
         text={["CONTACT me","CONTACT me"]}
       /></h1>
-        <div   class="hero h-[100%] ">
-          <div  class="hero-content flex-col-reverse justify-center items-center lg:flex-row">
+        <div   className="hero h-[100%] ">
+          <div  className="hero-content flex-col-reverse justify-center items-center lg:flex-row">
             <div data-aos="fade-right" className="md:px-0 md:py-0 px-[8%] py-[10%]">
               <h1 className="text-4xl uppercase mb-3 font-bold">
                 get in touch

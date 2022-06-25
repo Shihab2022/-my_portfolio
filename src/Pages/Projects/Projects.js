@@ -22,7 +22,7 @@ const Projects = () => {
         {
         projects?.map((project,index)=><>
           <div className='img-bg ' key={index} >
-           <img src={project?.img1} data-aos={index%2===0 ?`fade-down-right` :`flip-left`}
+           <img src={project?.img1} data-aos={index%2===0 ?`fade-down-right` :`fade-down`}
      data-aos-easing="ease-out-cubic"
   className='w-[100%] rounded-lg h-[300px]' alt="" />
            <div className='text-3xl  flex rounded-lg items-center justify-center overlay'>

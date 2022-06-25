@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ProductContext } from "../../App";
 import { FaRegHandPointRight,FaGift ,FaGithub} from "react-icons/fa";
-
+import './ProjectDetails.css'
 const ProjectDetails = () => {
   const {id} = useParams();
   const [projects] = useContext(ProductContext);
@@ -16,34 +16,37 @@ const {img1,img2,img3,img4,features,link,tools}=project
     <>      
       <div className="bg-accent w-screen lg:pb-0 pb-24 flex justify-center flex-col items-center py-10">
         <div className="lg:w-[70%] w-[90%]">
-          <div className="grid  grid-cols-2 gap-3 lg:gap-10">
-            <img src={img1} className="w-[90%] h-[200px] lg:h-[280px]" alt="" />
-            <img src={img2} className="w-[90%] h-[200px] lg:h-[280px]" alt="" />
-            <img src={img3} className="w-[90%] h-[200px] lg:h-[280px]" alt="" />
-            <img src={img4} className="w-[90%] h-[200px] lg:h-[280px]" alt="" />
+          <div data-aos="fade-right" className="grid  grid-cols-2 gap-3 lg:gap-10">
+            <img  src={img1} className="w-[90%] animation img1 h-[200px] lg:h-[280px]" alt="" />
+            <img src={img2} className="w-[90%] animation img2 h-[200px] lg:h-[280px]"  alt="" />
+            <img src={img3} className="w-[90%] animation img3 h-[200px] lg:h-[280px]"  alt="" />
+            <img src={img4} className="w-[90%] animation img4 h-[200px] lg:h-[280px]"  alt="" />
           </div>
         </div>
-        <div className="lg:w-[70%] w-[90%] my-8">
+        {/* features */}
+        <div data-aos="fade-right" className="lg:w-[70%] w-[90%] my-8">
           <h2 className="text-4xl font-semibold"> Features</h2>
           <p className="bg-primary py-1 rounded-lg my-3"></p>
-          {features?.map((feature) => (
-            <div className="flex my-2 text-xl items-center">
+          {features?.map((feature,index) => (
+            <div key={index} className="flex my-2 text-xl items-center">
               <FaRegHandPointRight /> <p className="ml-3">{feature}</p>
             </div>
           ))}
         </div>
-        <div className="lg:w-[70%] w-[90%] my-8">
+        {/* tools  */}
+        <div data-aos="fade-left" className="lg:w-[70%] w-[90%] my-8">
           <h2 className="text-4xl font-semibold">Technologies</h2>
           <p className="bg-primary py-1 my-3 rounded-lg"></p>
           <div className="grid my-5 grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-5">
-            {tools?.map((tool) => (
-              <div className="bg-primary rounded-lg p-2 flex justify-center items-center">
+            {tools?.map((tool , index) => (
+              <div key={index} className="bg-primary rounded-lg p-2 flex justify-center items-center">
                 <p className="lg:text-xl  text-neutral">{tool}</p>
               </div>
             ))}
           </div>
         </div>
-        <div className="lg:w-[70%] w-[90%] my-8">
+        {/* link */}
+        <div data-aos="fade-right" className="lg:w-[70%] w-[90%] my-8">
           <h2 className="text-4xl font-semibold"> Links</h2>
           <p className="bg-primary py-1 rounded-lg my-3"></p>
           <div className="grid grid-cols-3 gap-3 lg:gap-10">

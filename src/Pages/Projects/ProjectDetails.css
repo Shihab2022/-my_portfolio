@@ -1,0 +1,39 @@
+
+.animation{
+    animation: moveToLeft 5s linear infinite;
+   
+}
+.img1{
+    animation-delay: 400ms;
+}
+.img2{
+    animation-delay: 1000ms;
+}
+.img3{
+    animation-delay: 900ms; 
+}
+.img4{
+    animation-delay: 550ms;
+}
+@keyframes moveToLeft {
+    0% {
+      transform: translateX(0px);
+     
+    }
+    25% {
+      transform: translateX(70px);
+    
+    }
+    50% {
+      transform: translateY(50px) translateX(70px);
+   
+    }
+
+    75% {
+      transform: translateX(0px) translateY(50px);
+
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
