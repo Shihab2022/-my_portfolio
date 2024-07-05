@@ -17,6 +17,9 @@ import github from "../../assets/icon/github.png";
 import heroku from "../../assets/icon/heroku.png";
 import vs_code from "../../assets/icon/vs_code.png";
 import netlify from "../../assets/icon/netlify.png";
+import postgresql from "../../assets/icon/postgresql.png";
+import git from "../../assets/icon/git.png";
+import mui from "../../assets/icon/mui.png";
 import ReactTypingEffect from "react-typing-effect";
 const About = () => {
   return (
@@ -83,34 +86,20 @@ const About = () => {
 
               <div className="grid lg:grid-cols-4 text-secondary  md:grid-cols-2 grid-cols-1 gap-5">
                 <div
-                  data-aos="fade-down-right"
-                  className="py-7  w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
-                >
-                  <img src={html} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">html</h1>
-                </div>
-                <div
-                  data-aos="flip-left"
-                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
-                >
-                  <img src={css} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">css</h1>
-                </div>
-                <div
-                  data-aos="flip-right"
-                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
-                >
-                  <img src={bootstrap} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    bootstrap
-                  </h1>
-                </div>
-                <div
                   data-aos="fade-down-left"
                   className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
                 >
                   <img src={js} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">js</h1>
+                </div>
+                <div
+                  data-aos="flip-left"
+                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
+                >
+                  <img src={typeScript} className="h-3/4" alt="" />
+                  <h1 className="uppercase text-2xl mt-4 text-neutral">
+                    typeScript
+                  </h1>
                 </div>
                 <div
                   data-aos="fade-up-right"
@@ -122,35 +111,14 @@ const About = () => {
                   </h1>
                 </div>
                 <div
-                  data-aos="flip-right"
+                  data-aos="fade-down-right"
                   className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
                 >
-                  <img src={tailwind} className="h-3/4" alt="" />
+                  <img src={postgresql} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    tailwind
+                    postgresql
                   </h1>
                 </div>
-                <div
-                  data-aos="flip-left"
-                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
-                >
-                  <img src={firebase} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    firebase
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Comfortable */}
-          <div className="flex flex-col px-20 items-center">
-            <div>
-              <p className="text-4xl text-center uppercase  font-bold my-10">
-                Comfortable
-              </p>
-
-              <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
                 <div
                   data-aos="fade-down-right"
                   className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
@@ -178,6 +146,7 @@ const About = () => {
                     next js
                   </h1>
                 </div>
+
                 <div
                   data-aos="fade-down-left"
                   className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
@@ -187,9 +156,47 @@ const About = () => {
                     node js
                   </h1>
                 </div>
+                <div
+                  data-aos="flip-right"
+                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
+                >
+                  <img src={redux} className="h-3/4" alt="" />
+                  <h1 className="uppercase text-2xl mt-4 text-neutral">
+                    redux
+                  </h1>
+                </div>
+                <div
+                  data-aos="flip-right"
+                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
+                >
+                  <img src={mui} className="h-3/4" alt="" />
+                  <h1 className="uppercase text-2xl mt-4 text-neutral">mui</h1>
+                </div>
+                <div
+                  data-aos="flip-right"
+                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
+                >
+                  <img src={tailwind} className="h-3/4" alt="" />
+                  <h1 className="uppercase text-2xl mt-4 text-neutral">
+                    tailwind
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
+
+          {/* Comfortable */}
+          {/* <div className="flex flex-col px-20 items-center">
+            <div>
+              <p className="text-4xl text-center uppercase  font-bold my-10">
+                Comfortable
+              </p>
+
+              <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+
+              </div>
+            </div>
+          </div> */}
           {/* Familiar */}
           <div className="flex flex-col px-20 items-center">
             <div>
@@ -203,24 +210,6 @@ const About = () => {
                   className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
                 >
                   <img src={react_native} className="h-3/4" alt="" />
-                </div>
-                <div
-                  data-aos="flip-left"
-                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
-                >
-                  <img src={typeScript} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    typeScript
-                  </h1>
-                </div>
-                <div
-                  data-aos="flip-right"
-                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
-                >
-                  <img src={redux} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    redux
-                  </h1>
                 </div>
               </div>
             </div>
@@ -248,10 +237,8 @@ const About = () => {
                   data-aos="flip-left"
                   className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
                 >
-                  <img src={heroku} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    heroku
-                  </h1>
+                  <img src={git} className="h-3/4" alt="" />
+                  <h1 className="uppercase text-2xl mt-4 text-neutral">git</h1>
                 </div>
                 <div
                   data-aos="flip-right"
@@ -260,21 +247,6 @@ const About = () => {
                   <img src={vs_code} className="h-3/4" alt="" />
                   <h1 className="uppercase text-2xl mt-4 text-neutral">
                     vs code
-                  </h1>
-                </div>
-                <div
-                  data-aos="fade-down-left"
-                  className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent "
-                >
-                  <img src={netlify} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    netlify
-                  </h1>
-                </div>
-                <div className="py-7 w-full px-5 flex flex-col justify-center items-center shadow-2xl bg-info rounded-lg shadow-accent ">
-                  <img src={firebase} className="h-3/4" alt="" />
-                  <h1 className="uppercase text-2xl mt-4 text-neutral">
-                    firebase
                   </h1>
                 </div>
               </div>
